@@ -1,0 +1,4 @@
+﻿DTSTART,DTEND,SUMMARY,DESCRIPTION
+20241119,,All-day event,This is an all-day event
+2024-11-20,,Another all-day event,"This is another all-day event, see how this description is quoted because of the comma?"
+2024-11-21 09:00:00, 2024-11-21 10:00:00,Regular meeting event,Don't forget the coffee!

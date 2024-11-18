@@ -1,0 +1,9 @@
+name: py310_icsgenerator
+dependencies:
+  - python=3.10
+  - python-dateutil
+  - pip
+  - pip:
+# list packages that aren't available (or recent enough) in defaults or conda-forge
+# in the separate file pip_requirements.txt
+    - -r pip_requirements.txt

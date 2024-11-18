@@ -1,0 +1,8 @@
+services:
+  python:
+    build: 
+      context: .
+      dockerfile: ./docker/Dockerfile
+    container_name: python
+    volumes:
+    - ./output:/usr/src/app/output
