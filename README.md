@@ -1,4 +1,4 @@
-# Calendar Events to ICS Converter
+# Convert .csv of Calendar Events to .ics Calendar File
 This repository contains a Python script that reads calendar events from a CSV file and generates an ICS file for importing into your favorite calendar application.
 
 ## Features
