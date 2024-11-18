@@ -7,13 +7,9 @@ This repository contains a Python script that reads calendar events from a CSV f
 - Logs the conversion process
 
 ## Requirements
-- Docker and docker compose
-OR
-- Conda
-OR
-- Python 3.x
-- [icalendar](https://pypi.org/project/icalendar/)
-- [python-dateutil](https://pypi.org/project/python-dateutil/)
+- Docker & docker compose OR
+- Anaconda/Conda/Miniconda OR
+- Python 3.x with package [python-dateutil](https://pypi.org/project/python-dateutil/)
   
 ## CSV File Format
 The `app/source.csv` file has the following columns:
@@ -73,8 +69,7 @@ To remove the conda environment after running the project:
     ```
 
 ## Acknowledgements
-- [icalendar](https://pypi.org/project/icalendar/)
 - [python-dateutil](https://pypi.org/project/python-dateutil/)
 
 ## Contact
-Please feel free reach out with any comments, questions or issues.
+Please feel free reach out with any comments, questions or issues. I've tested this on MacOS with Apple Calendar.
