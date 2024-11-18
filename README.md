@@ -27,38 +27,54 @@ A spreadsheet application can be used to generate the `app/sources.csv` file.
 ## Running the Project
 ### Using Docker
 1. Clone the repository:
-   ```git clone <repository-url>
-   cd <repository-directory>```
+   ```
+   git clone https://github.com/devincorey/ical-generator.git
+   cd ical-generator
+   ```
 2. Build and run the Docker container:
-```docker compose up --build```
+```
+docker compose up --build
+```
 3. After the script completes, the generated `calendar.ics` file and `log.txt` file will be in the output folder.
 
 ### Using Conda
 1. Clone the repository:
-   ```git clone <repository-url>
-   cd <repository-directory>```
+   ```
+   git clone https://github.com/devincorey/ical-generator.git
+   cd ical-generator
+   ```
 2. Create a conda environment from the `.yml` file
-    ```conda env create --file conda/environment.yml```
+    ```
+    conda env create --file conda/environment.yml
+    ```
 3. Activate the conda environment:
-    ```conda activate py310_icsgenerator```
+    ```
+    conda activate py310_icsgenerator
+    ```
 4. Run the Python script:
-    ```cd app
-    python script.py```
+    ```
+    cd app
+    python script.py
+    ```
 5. After the script completes, the generated `calendar.ics` file and `log.txt` file will be in the output folder.
 
 ## Cleaning Up
 ### Removing the Docker Image and Container
 To delete the Docker image and container, run:
-    ```docker-compose down
-    docker rmi ics-generator-python```
+    ```
+    docker-compose down
+    docker rmi ics-generator-python
+    ```
 
 ### Removing the conda environment
 To remove the conda environment after running the project:
-    ```conda remove --name py310_icsgenerator --all```
+    ```
+    conda remove --name py310_icsgenerator --all
+    ```
 
 ## Acknowledgements
 - [icalendar](https://pypi.org/project/icalendar/)
 - [python-dateutil](https://pypi.org/project/python-dateutil/)
 
 ## Contact
-Please feel free 
+Please feel free reach out with any comments, questions or issues.
